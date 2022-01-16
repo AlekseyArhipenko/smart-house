@@ -9,7 +9,7 @@ class RadioTest {
 
     @Test
     public void createRadio() {
-        String expected = "Uzer";
+        String expected = "Chernii Vlastelin";
         assertNull(radio.getName());
         radio.setName(expected);
         assertEquals(expected, radio.getName());
@@ -66,9 +66,9 @@ class RadioTest {
 
     @Test
     public void volumeOverMax() {
-        radio.setCurrentVolume(13);
+        radio.setCurrentVolume(130);
         radio.getMaxVolume();
-        assertEquals(10, radio.getMaxVolume());
+        assertEquals(100, radio.getMaxVolume());
     }
 
     @Test
