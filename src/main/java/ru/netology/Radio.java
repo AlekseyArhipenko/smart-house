@@ -39,10 +39,10 @@ public class Radio {
     }
 
     public void setCurrentRadioStation(int currentRadioStation) {
-        if(currentRadioStation>maxRadioStation) {
+        if (currentRadioStation > maxRadioStation) {
             return;
         }
-        if(currentRadioStation<minRadioStation) {
+        if (currentRadioStation < minRadioStation) {
             return;
         }
         this.currentRadioStation = currentRadioStation;
@@ -69,10 +69,10 @@ public class Radio {
     }
 
     public void setCurrentVolume(int currentVolume) {
-        if(currentVolume > maxVolume){
+        if (currentVolume > maxVolume) {
             return;
         }
-        if(currentVolume<minVolume){
+        if (currentVolume < minVolume) {
             return;
         }
         this.currentVolume = currentVolume;
